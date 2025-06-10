@@ -93,7 +93,10 @@ button {
 }
 
 #header {
-  padding-block: 60px;
+  padding-block: 30px;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(4.3px);
   .header {
     display: flex;
     align-items: center;
