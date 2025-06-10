@@ -1,0 +1,155 @@
+@media (max-width: 1200px) {
+  #footer {
+    .footer {
+      .footer-text {
+        p {
+          max-width: 300px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #hero {
+    .hero {
+      .hero-img {
+        max-width: 510px;
+      }
+    }
+  }
+  #what {
+    .what {
+      .what-img {
+        max-width: 450px;
+      }
+    }
+  }
+  #work {
+    .work {
+      .work-list {
+        .work-boxs {
+          max-width: 326px;
+        }
+      }
+    }
+  }
+  #footer {
+    .footer {
+      flex-direction: column;
+      gap: 20px;
+      align-items: start;
+      .footer-nav {
+        max-width: 300px;
+        flex-wrap: wrap;
+      }
+      .footer-nav:last-child {
+        h3 {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #hero {
+    .hero {
+      .hero-img {
+        max-width: 440px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    .hero {
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      .hero-text {
+        align-items: center;
+        .hero-price {
+          .price:first-child {
+            position: absolute;
+            left: -10px;
+            top: 150px;
+          }
+          .price:nth-child(2) {
+            position: absolute;
+            left: 110px;
+            top: -20px;
+          }
+          .price:last-child {
+            position: absolute;
+            right: -10px;
+            top: 43px;
+          }
+        }
+      }
+      .hero-img {
+        display: none;
+      }
+      .hero-img2 {
+        display: block;
+        max-width: 450px;
+      }
+    }
+  }
+
+  #what {
+    .what {
+      .what-img {
+        max-width: 400px;
+      }
+      flex-direction: column;
+      align-items: start;
+      gap: 20px;
+    }
+  }
+
+  #header {
+    .header {
+      nav {
+        a {
+          display: none;
+        }
+      }
+      .burger-menu {
+        display: block;
+      }
+    }
+  }
+  #work {
+    .work {
+      .work-title {
+        text-align: left;
+        align-items: start;
+      }
+      .work-list {
+        justify-content: center;
+        .work-boxs:last-child {
+          display: none;
+        }
+        .work-boxs:nth-child(5) {
+          display: none;
+        }
+        .work-boxs:nth-child(4) {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 475px) {
+  #hero {
+    .hero {
+      .hero-img2 {
+        max-width: 350px;
+      }
+    }
+  }
+}
